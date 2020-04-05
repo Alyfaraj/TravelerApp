@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                tools:src="@mipmap/ic_launcher"
+                android:layout_marginBottom="28dp"
+                android:id="@+id/image_proo"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_proo"
+        android:text="@string/save"
+        android:textColor="#fff"
+        android:id="@+id/savepro"
+        android:background="@drawable/orangrec"
+        android:gravity="center"
+        />
+
+
+
+    </RelativeLayout>

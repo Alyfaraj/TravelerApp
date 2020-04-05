@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enterbackground"
+    tools:context=".ui.enter.EnterActivity">
+
+<TextView
+    android:textStyle="italic"
+     android:fontFamily="sans-serif-condensed-medium"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:padding="18dp"
+    android:gravity="center"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="50dp"
+    android:layout_above="@+id/enterLogin"
+    android:text="@string/welcomeActivity"
+    />
+
+    <Button
+        android:id="@+id/enterLogin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/whiterec"
+        android:fontFamily="@string/bottom_sheet_behavior"
+        android:text="@string/loginenter"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/enterSignUP"
+
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/enterLogin"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/orangrec"
+        android:fontFamily="@string/bottom_sheet_behavior"
+        android:text="@string/SignupEnter"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

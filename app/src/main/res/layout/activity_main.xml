@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="325dp"
+        android:layout_height="330dp"
+        android:src="@drawable/splash2"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
